@@ -1,0 +1,8 @@
+print('Hello, world!')
+student= { 
+"FName":"John",
+"LName": "Doe",
+"Phone": 712345678,
+"Email":"johndoe@gmail.com"
+}
+print(student

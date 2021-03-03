@@ -1,0 +1,46 @@
+print('Hello, world!')
+car= {
+"brand": "Audi",
+"model": "e-tron",
+"year": 2019
+}
+car["year"]= 2020
+car["color"]="red", "black", "grey","blue"
+car["variants"]= "sportback", "SUV"
+print(car)
+#REMOVING ITEMS
+car= {
+"brand": "Audi",
+"model": "e-tron",
+"year": 2019
+}
+car.pop("model")
+car.popitem()
+del car["brand"]
+car.clear()
+#looping in a dictionary
+for x in car:
+  print(x)
+for x in car.values():
+  print(x)
+  for x in car.keys():
+    print (x)
+for (x,y) in car.items():
+  print(x,y)
+#nested dictionaries
+print('Hello, world!')
+myfamily={
+"child1":{
+"name":"Lilian",
+"year":2002
+},
+"child2":{
+"name":"Tom",
+"year": 2005
+},
+"child3":{
+"name":"Chantal",
+"year": 2012
+},
+}
+print(myfamily)

@@ -1,0 +1,20 @@
+print('Hello, world!')
+car= {
+"brand": "Ford",
+"model": "Mustang",
+"year": 2015,
+}
+x=car["model"]
+print(x)
+y=car["brand"]
+print(y)
+x= car.keys()
+print(x)
+x=car.values()
+print(x)
+if"brand" in car:
+  print("Yes 'brand'is one of the keys in the dictionary")
+if "serial number" not in car:
+  print("No 'serial number' is not one of the keys")
+if "model" in car:
+  print("Yes 'model' is one of the keys")
